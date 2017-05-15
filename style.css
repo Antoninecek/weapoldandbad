@@ -1,0 +1,261 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21.3.2016, 9:51:26
+    Author     : F@nny
+*/
+
+body {
+    font-family: verdana;
+    font-size: 14px;
+    padding-bottom: 60px;
+    width: 900px;
+    margin: 0 auto;
+    background-color: lightgrey;
+
+}
+
+h1 {
+    text-align: center;
+    color: #444444;
+    text-shadow: 3px 3px 3px #aaaaaa;
+}
+
+article {
+    text-shadow: 3px 3px 3px #aaaaaa;
+}
+
+/* NAVBAR A HEADER */
+header img{
+    width: 100%;
+}
+
+.podpis {
+    float: right;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 5px;
+    color: #4E5986;
+}
+
+/*d*/
+#primary_nav_wrap {
+    border: black thin solid;
+    border-left: none;
+    border-right: none;
+    height: 46px;
+}
+
+#primary_nav_wrap ul
+{
+    list-style:none;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#primary_nav_wrap ul a
+{
+    display: block;
+    color: darkslategray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#primary_nav_wrap ul li
+{
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+    background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+    background: #7e89b4;
+}
+
+#primary_nav_wrap ul ul
+{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#afb5d0;
+    padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+    float:none;
+    width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+    line-height:120%;
+    padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+    top:0;
+    left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+    display:block
+}
+
+/* INPUT */
+
+input[type="submit"] {
+    background: #6FA4F8;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+input[type="submit"]:hover {
+    background: #2976f8;
+    color: #EEEEEE;
+    cursor: pointer;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #aaaaaa;
+    padding: 0.3em;
+    margin: 0; 
+} 
+
+input[type="submit"] {
+    padding: 10px 25px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+textarea {
+    border-radius: 5px;
+    border: 1px solid #aaaaaa;
+    width: 483px;
+    height: 90px;
+}
+
+/* TABLE */
+
+table {
+    border: black thin solid;
+    border-collapse: collapse; 
+}
+
+table td, table th {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+table tr {
+    border: black thin solid;
+}
+
+table td {
+    border: black thin solid;
+}
+
+.seznamUkolu {
+    display: table;
+    width: 100%;
+}
+
+.ukol {
+    width: 100%;
+}
+
+.ukol td {
+    width: 30%;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.seznamUkolu td {
+    border: none;
+}
+
+.seznamUkolu tr:hover {
+    background-color: lightsteelblue;
+    cursor: pointer;
+}
+.seznamUkolu thead tr:hover {
+    background-color: transparent;
+    cursor: auto;
+}
+
+/* BUTTONS */
+
+.prepinace {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.prepinace button {
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#splnene {
+    background-color: lightgreen;
+}
+
+#nesplnene {
+    background-color: red;
+}
+
+#vsechny {
+    background-color: lightblue;
+}
+
+.prepinace .active {
+    border-color: black;
+}
+
+.navUkol {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.navUkol button {
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#stav {
+    background-color: lightgreen;
+}
+
+#smazani {
+    background-color: red;
+}
+
+#uprava {
+    background-color: lightblue;
+}
